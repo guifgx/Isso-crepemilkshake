@@ -1,0 +1,249 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: lightgray;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 25px;
+  border-radius: 0px;
+  border: 2px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#E-Mail {
+  height: 20px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+#Senha {
+  height: 20px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+#botao {
+  padding: 8px;
+  border-radius: 15px;
+}
+#img-logo {
+  width: 100%;
+  height: 50vh;
+  background-image: url("../img/logo.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 25px;
+    background-color: #b3a2a2;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+
+  #logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #logo img {
+    width: 120px;
+  }
+
+  header {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 30px;
+  }
+}
+
+div {
+  margin: 25px 0;
+}
+
+label {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#E-Mail,
+#Senha {
+  width: 80%;
+  height: 45px;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding-left: 15px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#esqueceusenha {
+  margin-top: 20px;
+}
+
+#esqueceusenha {
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+}
+
+#botao {
+  width: 220px;
+  height: 55px;
+  border-radius: 30px;
+  border: 2px solid black;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#img-logo {
+  height: 200px;
+  height: 50vh;
+  margin: 50px auto;
+  background-image: url(../img/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+nav {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+@media (min-width: 1025px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4a4a4a, #1c1c1c);
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+
+  #logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  #logo img {
+    width: 180px;
+  }
+
+  header p {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 40px;
+  }
+
+  div {
+    margin: 35px 0;
+  }
+
+  label {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  #E-Mail,
+  #Senha {
+    width: 450px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding-left: 20px;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+
+  #esqueceusenha a {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+  }
+
+  #botao {
+    width: 290px;
+    height: 70px;
+    border-radius: 40px;
+    border: 2px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #botao:hover {
+    transform: scale(1.05);
+  }
+
+  #img-logo {
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    background-image: url(../img/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  #img-logo:hover {
+    transform: scale(1.02);
+  }
+
+  nav {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: purple;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: black;
+  }
+}
